@@ -6,13 +6,13 @@
 	<array>
 		<dict>
 			<key>Image File</key>
-				<string>yd_dict.ico</string>
+				<string>ext.ico</string>
 			<key>Regular Expression</key>
 				<string>(?s)^.{1,500}$</string>
 			<key>Script Interpreter</key>
 				<string>/usr/bin/php</string>
 			<key>Shell Script File</key>
-				<string>yd_dict.php</string>
+				<string>ext.php</string>
 			<key>Title</key>
 				<string>有道词典</string>
 			<key>After</key>
@@ -25,7 +25,7 @@
 	<key>Extension Description</key>
 	<string>Get Translate From Youdao Dict</string>
 	<key>Extension Image File</key>
-	<string>yd_dict.ico</string>
+	<string>ext.ico</string>
 	<key>Extension Name</key>
 	<string>Youdao Translate</string>
 	<key>Version</key>
