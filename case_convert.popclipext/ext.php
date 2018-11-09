@@ -14,5 +14,5 @@ function toCamelCase($uncamelized_words, $separator = '_')
 
 function toSnakeCase($camelCaps, $separator = '_')
 {
-    return strtolower(preg_replace('/[A-Z]([a-z]+|[A-Z]+?)(?=[A-Z]|$)/', $separator . "$0", lcfirst($camelCaps)));
+    return strtolower(preg_replace('/[A-Z]([a-z]+|[A-Z]{1,2}?)(?=[A-Z]|$)/', $separator . "$0", lcfirst($camelCaps)));
 }
