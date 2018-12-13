@@ -16,7 +16,7 @@
 			<key>Title</key>
 				<string>有道词典</string>
 			<key>After</key>
-				<string>show-result</string>
+				<string>preview-result</string>
 		</dict>
 	</array>
 	<key>Extension Identifier</key>
