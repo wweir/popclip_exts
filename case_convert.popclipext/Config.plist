@@ -8,7 +8,7 @@
 			<key>Image File</key>
 				<string>ext.ico</string>
 			<key>Regular Expression</key>
-				<string>^[A-Za-z][a-z]+(([A-Z]{1,4}[a-z]*)|(_[A-Za-z]+)+)$</string>
+				<string>^([A-Z][a-z]+([A-Z]{1,4}[a-z]+)+)|([a-z]+(_[a-z]+)+)$</string>
 			<key>Script Interpreter</key>
 				<string>/usr/bin/php</string>
 			<key>Shell Script File</key>
