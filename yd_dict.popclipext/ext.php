@@ -8,6 +8,12 @@ curl_setopt_array($ch, [
     CURLOPT_RETURNTRANSFER => true,
 ]);
 $resp = curl_exec($ch);
+$resp = @(json_decode($resp, true));
 curl_close($ch);
 
-echo @join('; ', @(json_decode($resp, true))['translation']);
+$translation = @join('; ', $resp['translation']);
+if ($translation == getenv('POPCLIP_TEXT')) {
+    $translation = @join('; ', $resp['basic']['explains']);
+}
+
+echo $translation;
